@@ -1,0 +1,444 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700;800&display=swap');
+
+
+/* COMMON CSS STARTS*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none !important;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+/* COMMON CSS ENDS*/
+
+/* TOP HEADER CSS */
+
+.top_header {
+    background-color: #56AB2F;
+    color: #ffffff;
+    padding: 20px 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.top_header a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.login_part {
+    padding-left: 249px;
+}
+
+
+/* TOP HEADER ENDS */
+
+/* HEADER CSS STARTS*/
+
+
+.logo {
+    width: 80px;
+}
+
+.menu_item ul li a {
+    color: #000000 !important;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+
+.menu_item ul li a:hover {
+    color: green !important;
+}
+
+
+/* HEADER CSS ENDS*/
+
+/* BANNER CSS STARTS */
+
+.banner_part {
+    background: url(../images/404banner.jpg);
+    padding: 30px 0;
+}
+
+.banner_part h1 {
+    text-align: center;
+    color: #ffffff;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+}
+
+.breadcrumb {
+    padding: 0 470px !important;
+}
+
+@media screen and (max-width:480px){
+    .breadcrumb{
+        padding: 10px 100px !important;
+    }
+}
+
+.item1 {
+    color: #56AB2F;
+}
+
+/* BANNER CSS ENDS */
+
+
+/* COURSE CSS STARTS */
+
+.course_details {
+    position: relative;
+    margin: 50px 0;
+}
+
+@media screen and (max-width:480px){
+    .course_details{
+        margin: 52px 0 0 65px;
+    }
+}
+.course_details::before {
+    position: absolute;
+    content: "";
+    height: 2px;
+    width: 70px;
+    background-color: green;
+    top: -10%;
+}
+
+.course_head {
+    background-color: green;
+    height: 60px;
+    width: auto;
+}
+
+.card {
+    height: 439px !important;
+}
+
+i {
+    color: rgb(8, 240, 8);
+    font-weight: bold;
+}
+
+.img-fluid {
+    margin-left: -60px;
+}
+
+.button {
+    border: 1px solid green;
+}
+
+.button:hover {
+    background-color: green;
+    color: #fff;
+}
+
+/* COURSE CSS ENDS */
+
+/* COURSE ABOUT CSS STARTS */
+
+.course_about h2{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    padding: 15px 0;
+}
+
+
+/* COURSE ABOUT CSS ENDS */
+
+/* LEARN PART CSS STARTS */
+
+.learn_part h2{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    padding: 15px 0;
+}
+.learn_part i{
+    color: #000000;
+}
+
+.check_part{
+    margin-bottom: 50px;
+}
+
+/* LEARN PART CSS ENDS */
+
+/* INSTRUCTOR PART CSS STARTS */
+
+.instructor_part h2{
+    margin-bottom: 40px;
+}
+
+.instructor_content{
+    display: flex;
+}
+.content_part{
+    margin-left: 30px;
+}
+.instructor_part .instructor_content .content_part i{
+    width: 30px;
+    justify-content: center;
+    color: black;
+}
+.instructor_part .instructor_content .content_part i:hover{
+    color: green;
+}
+.instructor_partp{
+    margin-top: 40px;
+}
+/* INSTRUCTOR PART CSS ENDS */
+
+
+/* COMMENT PART CSS STARTS */
+
+.comment1{
+    display: flex;
+}
+.cmnt_msg{
+    padding-left: 30px;
+    padding-right: 295px;
+}
+
+@media screen and (max-width:480px){
+    .cmnt_msg{
+        padding-left: 10px;
+        padding-right: 20px;
+    }
+}
+.date{
+    display: flex;
+    margin-top: 10px;
+    margin-bottom: 25px;
+}
+.date .time{
+    padding-left: 125px;
+}
+@media screen and (max-width:480px){
+    .date .time{
+        padding-left: 50px;
+        padding-right: 30px;
+    }
+}
+@media screen and (max-width:480px){
+    .date .time2{
+        padding-left: 40px !important;
+    }
+}
+.date .time2{
+    padding-left: 100px;
+}
+.date .reply{
+    padding-left: 755px;
+}
+@media screen and (max-width:480px){
+    .date .reply{
+        padding-left: 100px;
+    }
+}
+.cmnt2{
+    margin-left: 100px;
+}
+/* COMMENT PART CSS ENDS */
+
+/* LEAVE A REPLY PART CSS STARTS */
+
+.contact{
+    margin: 100px 0;
+}
+.custom_button a{
+    margin-left: 460px !important;
+    margin-top: 50px  !important;
+    border: 1px solid green;
+    padding: 10px 50px;
+    color: #000;
+    font-weight: 500;
+}
+@media screen and (max-width:480px){
+    .custom_button a{
+        margin-left: 70px !important;
+    }
+}
+
+.btn{
+    margin-top: 25px;
+}
+.custom_button a:hover{
+    background-color: green;
+    color: #fff;
+}
+
+@media screen and (max-width:480px){
+    .contact textarea{
+        width: 100%;
+    }
+}
+
+/* LEAVE A REPLY PART CSS ENDS */
+
+/* NEWSLETTER PART CSS STARTS */
+
+.news_letter{
+    background-color: #56AB2F;
+    color: #fff;
+    padding: 30px 0;
+}
+.news_letter h1{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    text-align: center;
+}
+.email_part{
+    margin-left: 400px;
+}
+@media screen and (max-width:480px){
+    .email_part{
+        margin-left: 30px;
+    }
+}
+.email_part input{
+    width: 35%;
+    background: transparent;
+    outline: none !important;
+    border: 1px solid #fff;
+    padding: 5px 5px;
+}
+@media screen and (max-width:480px){
+    .news_letter .email_part input{
+        width: 80%;
+        background: #fff;
+    }
+}
+
+.email_part button i{
+    border: 3px solid #9BC887;
+    padding: 15px 15px;
+    color: #000;
+    background: transparent;
+}
+
+/* NEWSLETTER PART CSS ENDS */
+
+
+/* FOOTER PART CSS STARTS */
+
+.footer_part{
+    background: #000;
+    color: #fff;
+}
+
+.number{
+    padding-bottom: 30px;
+}
+.number i{
+    color: #fff;
+    padding-right: 6px;
+}
+.border_footer{
+    border-bottom: 1px solid #56AB2F;
+}
+.footer_logo{
+    margin-top: 80px;
+    margin-bottom: 40px;
+    width: 130px;
+}
+.link_head{
+    margin-top: 80px;
+    text-align: center;
+    margin-bottom: 25px;
+}
+.link{
+    display: flex;
+    justify-content: center;
+}
+.link i{
+    padding: 8px !important;
+}
+.link2{
+    margin-left: 60px;
+}
+.support_head{
+    margin-top: 80px;
+    text-align: center;
+    margin-bottom: 25px;
+}
+.flicker_head{
+    margin-top: 80px;
+    margin-bottom: 25px;
+    text-align: center;
+}
+.album_images img{
+    padding-bottom: 15px;
+}
+/* FOOTER PART CSS ENDS */
+
+/* FOOTER CSS STARTS */
+
+.footer{
+    padding: 30px 0;
+    background-color: #000;
+    color: #fff;
+}
+.footer i{
+    color: #fff;
+    padding: 10px 15px;
+}
+.footer i:hover{
+    color: #56AB2F;
+}
+
+
+/* FOOTER CSS ENDS */
+
+/* ERROR PART CSS STARTS */
+.error_part{
+    margin: 50px 0;
+}
+.error_part span{
+    padding: -1px;
+}
+.error_part .error_head h1{
+    font-size: 146px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    text-align: center;
+    padding-top: 40px;
+}
+.custom_text{
+    color: #56AB2F;
+    font-size: 20px;
+    font-weight: 500;
+}
+.error_part .back_home a{
+    margin-left: 200px;
+    padding: 15px 40px;
+    border: 1px solid #56AB2F;
+}
+@media screen and (max-width:480px){
+    .error_part .back_home a{
+        margin-left: 100px;
+    }
+}
+
+.error_part .back_home .btn{
+    margin-top: 40px !important;
+}
+.error_part .error_image img{
+    width: 400px;
+    padding: 40px 0 0 80px;
+}
+@media screen and (max-width:480px){
+    .error_part .error_image img{
+        width: 300px;
+    }
+}
+
+/* ERROR PART CSS ENDS */
